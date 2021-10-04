@@ -2,18 +2,18 @@ import React from 'react';
 
 const OurServices = () => {
     return (
-        <div>
+        <div className="mb-5">
             <h2>Our Services</h2>
             <h5 className="ms-5 me-5">We provide several services that help international students to get them ready for the journey. Also we’ve got an agent program that benefits them to build a career with the name and work closely with our partnered university and help them, too, as well as the students.</h5>
-            <div class="accordion text-start" id="accordionExample">
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <div className="accordion text-start" id="accordionExample">
+            <div className="accordion-item">
+                <h2 className="accordion-header" id="headingOne">
+                <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                     <h5><i>Services for students:</i></h5>
                 </button>
                 </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
+                <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div className="accordion-body">
                     <h5>We provide several services that help international students to get them ready for the journey.</h5>
                     <h5><i>Free counseling: </i></h5>
                     <p>To any student coming with queries, we offer counseling free of cost with our expert team of counselors. </p>
@@ -38,14 +38,14 @@ const OurServices = () => {
                 </div>
                 </div>
             </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <div className="accordion-item">
+                <h2 className="accordion-header" id="headingTwo">
+                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                     <h5><i>Services for Agent: </i></h5>
                 </button>
                 </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
+                <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div className="accordion-body">
                     <h5>We’ve got an agent program that benefits them to build a career with the name.</h5>
                     <ul>
                         <li>Provide proper training.</li>
@@ -59,14 +59,14 @@ const OurServices = () => {
                 </div>
                 </div>
             </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <div className="accordion-item">
+                <h2 className="accordion-header" id="headingThree">
+                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                     <h5><i>Services for institutions:</i></h5>
                 </button>
                 </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
+                <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div className="accordion-body">
                     <h5>We work closely with our partnered university and help them, too, as well as the students. What we offer:</h5>
                     <ul>
                         <li>Provide trends of the local market and send regular feedback.</li>

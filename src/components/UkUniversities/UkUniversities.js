@@ -11,7 +11,7 @@ const UkUniversities = () => {
     }, []);
 
     return (
-        <div>
+        <div className="mb-5 pb-5">
              <h2>Best UK Universities</h2>
              <div className="universities">
                 <div className="row">

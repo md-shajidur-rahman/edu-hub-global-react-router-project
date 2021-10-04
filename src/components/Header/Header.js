@@ -7,9 +7,10 @@ const Header = () => {
     const activeStyle={fontWeight: "bold", color: "blue"};
     return (
         <nav>
-            <Navbar bg="dark" variant="dark">
+            <Navbar  bg="white" variant="dark">
                 <Container gap={3}>
-                <Navbar.Brand href="#home">EduHub Global</Navbar.Brand>
+                <Navbar.Brand href="#home"><img src="https://i.ibb.co/cTfx5w7/logo.png" alt="" width="60" height="auto" className="d-inline-block align-text-top"/></Navbar.Brand>
+                 
                 <Stack direction="horizontal" gap={3}>
                 <NavLink className="nav-style" activeStyle={activeStyle} to="/home">Home</NavLink>
                 <NavLink className="nav-style" activeStyle={activeStyle} to="/ukuniversities">UK Universities</NavLink>
