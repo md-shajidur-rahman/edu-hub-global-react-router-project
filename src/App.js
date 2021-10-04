@@ -7,7 +7,10 @@ import OurServices from './components/OurServices/OurServices';
 import AboutUs from './components/AboutUs/AboutUs';
 import UkUniversities from './components/UkUniversities/UkUniversities';
 import NotFound from './components/NotFound/NotFound';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import Blogs from './components/Blogs/Blogs';
 
 
 
@@ -15,6 +18,7 @@ function App() {
   return (
     <div className="App">
       <Router>
+        <Header></Header>
         <Switch>
           <Route exact path='/'>
             <Home></Home>
@@ -31,10 +35,14 @@ function App() {
           <Route path='/aboutus'>
             <AboutUs></AboutUs>
           </Route>
+          <Route path='/blogs'>
+            <Blogs></Blogs>
+          </Route>
           <Route path='*'>
             <NotFound></NotFound>
           </Route>
         </Switch>
+        <Footer></Footer>
       </Router>
        
     </div>
