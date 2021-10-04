@@ -19,7 +19,7 @@ const Footer = () => {
                     <Card.Text>
                     E-mail: info@eduhubglobal.com, Mobile: 07780676857
                     </Card.Text>
-                    <Button variant="primary">Visit our Partner University</Button>
+                    
                     </Col>
                 </Row>
                 

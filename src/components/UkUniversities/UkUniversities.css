@@ -1,0 +1,9 @@
+.cart {
+  margin: 10px;
+  border: 1px solid grey;
+  padding: 10px;
+  height: 500px;
+}
+.img-size {
+  width: 100px;
+}
